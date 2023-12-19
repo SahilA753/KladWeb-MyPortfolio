@@ -38,7 +38,7 @@ function handleKeyPress(event) {
         let terminalElement = document.getElementById("terminal");
           let currentHtml = terminalElement.innerHTML;
           let commandList = "<div class=\"m1\">Hi, I am Sahil Agrawal, currently studying Computer Science (6th Semester) at IIT Patna. For more information, visit: <a class=\"href\" href=\"/about.html\">About Me</a>.</div>"+
-                            "<div class=\"m1\" style=\"border: 5px solid #ff9e64; padding: 10px; text-align: center;\">" +
+                            "<div class=\"m1\" style=\" padding: 10px; text-align: center;\">" +
                             "<img src=\"img/profile.jpg\" alt=\"Profile Image\" style=\"height: 300px; width: auto; border: 5px solid #ff9e64;\">" +
                             "</div>"+
                             "<span class=\"m1\" style=\"color: rgb(255, 158, 100);\">λ : : user@kladhome ~ </span>\n" +
