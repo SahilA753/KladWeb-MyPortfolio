@@ -1,0 +1,139 @@
+:root {
+    --nfontcolor: #a9b1d6;
+    --hfontcolor: #bb9af7;
+    --mainbg: #1a1b26;
+    --font_family1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    --font_family2: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: var(--font_family2);
+  }
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a9b1d6; 
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, #333333 1px, transparent 1px),
+                linear-gradient(#333333 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-color: var(--mainbg);
+}
+
+@keyframes backgroundAnimation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+  h1 {
+    color: var(--primary-color);
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #333333 1px, transparent 1px),
+                linear-gradient(#333333 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-color: var(--mainbg);
+    color:var(--nfontcolor);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100vw;
+    height: auto;
+    animation: backgroundAnimation 20s infinite linear;
+}
+
+.terminal{
+  overflow: hidden;
+  position: relative;
+}
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 60vw;
+    height: auto;
+    background: none;
+  }
+
+  .title_other {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 50px;
+    justify-content: center;
+    width: 50vw;
+    height: auto;
+    background: none;
+
+  }
+  
+  .ubuntu{
+    margin-top: 2vw;
+  }
+  
+.code-container {
+  margin: 20px auto; /* Center the container */
+  max-width: 800px; /* Adjust the maximum width as needed */
+  background-color: rgba(0, 0, 0, 0.7); /* Translucent black background */
+  color: white; /* Text color */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  align-items: center;
+  justify-content: center;
+}
+
+.code-container h2 {
+  color: #ff9e64; /* Heading color */
+}
+
+
+
+
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2; 
+}
+
+
+  
+
+
+
+h1 {
+  color: var(--hfontcolor);
+}
+  /* Add more styles using the variables */
+  

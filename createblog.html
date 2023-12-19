@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/createblog.css">
+    <link rel="stylesheet" type="text/css" href="css/utils.css">
+    <title>KladWeb</title>
+</head>
+<body>
+    <div class="main">
+        <div class="title fontcolor centerize">
+            <h1 class="headcolor">W.R.I.T.E B.L.O.G</h1>
+        </div>
+        <div class="insider">
+            <textarea id= "blogbox"class="blogbox" oninput="generateHTML()" placeholder="Enter your content here..."></textarea>
+            <textarea id= "titlebox"class="titlebox" oninput="generateHTML()" placeholder="Enter your title here..."></textarea>
+            <textarea id= "datebox"class="datebox" oninput="generateHTML()" placeholder="Enter your date here..."></textarea>
+            <div class="button-container">
+
+                <button class="code-button" onclick="insertCode()">Code</button>
+                <button class="image-button" onclick="insertImg()">Image</button>  
+                <button class="download-button" onclick="downloadHTML()">Download Page</button>
+            </div>
+        </div>
+        <div class="">
+        <div id="preview" class="preview"></div>
+    </div>
+    </div>
+
+    <div class="footer" id="datetimeFooter" style="color: #b395eb"></div>
+
+    <script src="js/index.js"></script>
+    <script src="js/createblogs.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+:root {
+    --nfontcolor: #a9b1d6;
+    --hfontcolor: #bb9af7;
+    --mainbg: #1a1b26;
+    --font_family1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --font_family2: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  }
+  
+
+
+.fontcolor{
+    color: var(--nfontcolor);
+    background-color: transparent !important; /* Add !important to override any existing styles */
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+.headcolor{
+    color: var(--hfontcolor);
+    background-color: transparent !important; /* Add !important to override any existing styles */
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+.centerize{
+    align-items: center;
+}
+.inputstyle {
+    /* display: none; */
+      width: 50px; /* Set the width as needed */
+      padding: 0px;
+      margin-bottom: 10px;
+      /* background: linear-gradient(90deg, #333333 1px, transparent 1px),
+                linear-gradient(#333333 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-color: var(--mainbg); */
+    background: none;
+      border: 0;
+      outline: none;
+      opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+.m1{
+    margin:0.6vw;
+    background-color: transparent !important; /* Add !important to override any existing styles */
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+.m2{
+    margin-top:0.4vw;
+    margin-bottom: 0.4vw;
+    margin-right: 0.8vw;
+    margin-left: 0.8vw;
+    background-color: transparent !important; 
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.href{
+    /* text-decoration: none; */
+    color: #2ac3de;
+    transition: color 0.3s ease-in-out;
+}
+.href:hover {
+    color: #ffffff; 
+  }
